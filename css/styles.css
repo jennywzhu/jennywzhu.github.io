@@ -1,10 +1,10 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	background-color: #b5f2fb;
 	background-image: linear-gradient(to bottom, #b5f2fb 0%, #ffffff 100%); 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	font-size: 17px;
+	font-size: 16.5px;
 }
 
 .header {
@@ -26,6 +26,7 @@ body {
 .site-links {
 	text-decoration: none;
 	font-family: 'Inconsolata', sans-serif;
+	font-weight: 500;
 }
 
 nav {
@@ -49,7 +50,7 @@ nav {
 }
 
 .page-section-heading {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 
 .container {
@@ -62,7 +63,7 @@ nav {
 .small-header {
 	font-family: 'Inconsolata', sans-serif;
 	font-size: 22.5px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .intro-container {
@@ -88,14 +89,14 @@ a:hover {
 }
 
 .reg-icon {
-	font-size:231%;
+	font-size:228%;
 	padding:2px;
 }
 
 .link-icon {
 	background: #0072b1;
 	height: 1em;
-	width: 1em;
+	width: 1.5em;
 	border-radius: 50%;
 	padding:10px;
 }
@@ -104,6 +105,10 @@ a:hover {
 	background: #404040;
 	border-radius: 50%;
 	padding:10px;
+}
+
+.link-icon:hover, .mail-icon:hover {
+	background: #f33f6f;
 }
 
 .names {
@@ -118,7 +123,7 @@ img.center {
 
 .masthead-heading {
 	font-family: 'Inconsolata', monospace;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .masthead-text {
@@ -141,7 +146,7 @@ td {
 	text-align: center;
 	vertical-align: center;
 	font-size: 14px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	padding-left: 20px;
 	padding-right: 20px;
 }
